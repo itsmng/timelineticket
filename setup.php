@@ -37,7 +37,7 @@
    ------------------------------------------------------------------------
  */
 
-define("PLUGIN_TIMELINETICKET_VERSION", "9.5+1.1");
+define("PLUGIN_TIMELINETICKET_VERSION", "1.2");
 
 if (!defined("PLUGIN_TIMELINETICKET_DIR")) {
    define("PLUGIN_TIMELINETICKET_DIR", GLPI_ROOT . "/plugins/timelineticket");
