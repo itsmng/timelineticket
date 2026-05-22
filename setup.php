@@ -47,7 +47,7 @@ function plugin_version_timelineticket() {
 
    return ['name'         => _n("Timeline of ticket", "Timeline of tickets", 2, "timelineticket"),
            'version'      => PLUGIN_TIMELINETICKET_VERSION,
-           'homepage'     => 'https://github.com/pluginsGLPI/timelineticket',
+           'homepage'     => 'https://github.com/itsmng/timelineticket',
            'license'      => 'AGPLv3+',
            'author'       => 'Nelly Mahu-Lasson && David Durieux && Xavier Caillaud',
            'requirements' => [
