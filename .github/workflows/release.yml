@@ -19,7 +19,7 @@ jobs:
       - name: Build project
         run: |
           cd /home/runner/work/timelineticket/
-          composer install --no-dev
+          cd timelineticket && composer install --no-dev && cd ..
           rm -rf timelineticket/.git* timelineticket/debian timelineticket/phpunit timelineticket/tools timelineticket/README.md timelineticket/composer.json
           tar -zcvf timelineticket-${{ github.ref_name }}.tgz timelineticket
 
